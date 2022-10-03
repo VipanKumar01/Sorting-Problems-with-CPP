@@ -1,6 +1,3 @@
-
-# Online Python - IDE, Editor, Compiler, Interpreter
-
 def ParenthesisMatching(var1):
     
     # Temp variable That storing Information in list form
@@ -22,7 +19,7 @@ def ParenthesisMatching(var1):
             if i in Opened:
                 temp.append(i)
             else:
-                if (len(temp != 0)):
+                if (len(temp) != 0):
                     AllParenthesis.pop()
                     AllParenthesis.pop()
                     temp.pop()
@@ -47,4 +44,3 @@ if (ParenthesisMatching(var1)):
     print("True")
 else:
     print("False")
-print(f'Sum of {a} and {b} is {sum(a, b)}')
