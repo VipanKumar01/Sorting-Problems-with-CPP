@@ -36,11 +36,11 @@ int main()
 		min_idx = i;
 		
 		for(j=i+1;j<n;j++)
-		if (arr[j]<arr[min_idx])
-			min_idx = j;
+			if (arr[j]<arr[min_idx])
+				min_idx = j;
 			
 		if (min_idx != i) 
-			swap(arr[min_idx],arr[i]);   // I am Using BuiltIn Functoin Of Swap.
+			swap(arr[min_idx],arr[i]);   // I am Using BuiltIn Function of Swap.
 		
 	}
 	
