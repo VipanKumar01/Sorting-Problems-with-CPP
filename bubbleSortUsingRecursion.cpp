@@ -1,4 +1,7 @@
-// Online C++ compiler to run C++ program online
+// Bubble Sorting Using Recursion Algorithm and Implimentation
+
+// Name = Vipan Kumar
+// User Name = @VipanKumar01
 #include <iostream>
 using namespace std;
 
@@ -34,10 +37,11 @@ void bubbleSortUsingRecursion(int arr[], int n)
     // Checking the Elements
     if (count==0)
         return;
-    
+    // Recursion of the Method 
     bubbleSortUsingRecursion(arr,n-1);
 }
 
+// Simply Displaying the Array Elements
 void displayArray(int arr[],int n)
 {
     for(int i=0;i<n;i++)
@@ -50,9 +54,12 @@ void displayArray(int arr[],int n)
 
 int main() {
     int arr[] = {54,34,2,54,67,99,567,111};
+    // Finding the Size of the Array
     int size = sizeof(arr)/sizeof(int);
     
     bubbleSortUsingRecursion(arr,size);
     displayArray(arr,size);
     return 0;
 }
+
+//  --HappyCode--
